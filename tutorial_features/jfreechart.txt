@@ -1,0 +1,28 @@
+*Website: https://www.tutorialspoint.com/jfreechart/jfreechart_pie_chart.htm
+**Feature_1
+Name:Create PieChart
+Code:DefaultPieDataset.setValue,ChartFactory.createPieChart
+**Feature_2
+Name:Save image in JPEG format
+Code:ChartUtilities.saveChartAsJPEG
+**Feature_3
+Name:Save image in PNG format
+Code:ChartUtilities.saveChartAsPNG
+**Feature_4
+Name:Create BarChart
+Code:DefaultCategoryDataset.addValue,ChartFactory.createBarChart
+**Feature_5
+Name:Create XYChart
+Code:XYSeries.add,XYSeriesCollection.addSeries,ChartFactory.createXYLineChart
+**Feature_6
+Name:Create 3D PieChart
+Code:DefaultPieDataset.setValue,ChartFactory.createPieChart3D
+**Feature_7
+Name:Create 3D BarChart
+Code:DefaultCategoryDataset.setValue,ChartFactory.createBarChart3D
+**Feature_8
+Name:Create BubbleChart
+Code:DefaultXYZDataset.addSeries,ChartFactory.createBubbleChart
+**Feature_9
+Name:Create TimeSeriesChart
+Code:TimeSeries.add,ChartFactory.createTimeSeriesChart

@@ -1,0 +1,67 @@
+*Website: http://www.quartz-scheduler.org/documentation/quartz-2.3.0/cookbook/
+**Feature_1
+Name:Instantiating the Default Scheduler
+Code:SchedulerFactory.getScheduler
+**Feature_2
+Name:Instantiating A Specific Scheduler From Specific Properties
+Code:StdSchedulerFactory.initialize,StdSchedulerFactory.getScheduler
+**Feature_3
+Name:Placing a Scheduler in Stand-by Mode
+Code:Scheduler.standby
+**Feature_4
+Name:Shutting Down a Scheduler
+Code:Scheduler.shutdown
+**Feature_5
+Name:A Job Class
+Code:JobExecutionContext.getMergedJobDataMap
+**Feature_6
+Name:Defining a Job Instance
+Code:JobBuilder.newJob.withIdentity.usingJobData.build
+**Feature_7
+Name:Scheduling a Job
+Code:JobBuilder.newJob.withIdentity.build,TriggerBuilder.newTrigger.withIdentity.startNow.build,Scheduler.scheduleJob
+**Feature_8
+Name:Unscheduling a Particular Trigger of Job
+Code:Scheduler.unscheduleJob
+**Feature_9
+Name:Deleting a Job and Unscheduling All of Its Triggers
+Code:Scheduler.deleteJob
+**Feature_10
+Name:Storing a Job for Later Use
+Code:JobBuilder.newJob.withIdentity.storeDurably.build,Scheduler.addJob
+**Feature_11
+Name:Scheduling an already stored job
+Code:TriggerBuilder.newTrigger.withIdentity.startNow.forJob.build,Schedule.scheduleJob
+**Feature_12
+Name:Update an existing job
+Code:JobBuilder.newJob.withIdentity.build,Scheduler.addJob
+**Feature_13
+Name:Replacing a trigger
+Code:TriggerBuilder.newTrigger.withIdentity.startNow.build,Scheduler.rescheduleJob
+**Feature_14
+Name:Updating an existing trigger
+Code:Scheduler.getTrigger,Trigger.getTriggerBuilder,TriggerBuilder.withSchedule.withIntervalInSeconds.withRepeatCount.build,Scheduler.rescheduleJob
+**Feature_15
+Name:Listing all Jobs in the scheduler
+Code:Scheduler.getJobGroupNames,Scheduler.getJobKeys
+**Feature_16
+Name:Listing all Jobs in the scheduler
+Code:Scheduler.getTriggerGroupNames,Scheduler.getTriggerKeys
+**Feature_17
+Name:Finding Triggers of a Job
+Code:Scheduler.getTriggersOfJob
+**Feature_18
+Name:Using Job Listeners
+Code:Scheduler.getListenerManager.addJobListener
+**Feature_19
+Name:Using Trigger Listeners
+Code:Scheduler.getListenerManager.addTriggerListener
+**Feature_20
+Name:Using Scheduler Listeners
+Code:Scheduler.getListenerManager.addSchedulerListener
+**Feature_21
+Name:Trigger That Executes Every X Time
+Code:TriggerBuilder.newTrigger.withIdentity.startNow.withSchedule.build
+**Feature_22
+Name:Using CalendarTrigger
+Code:TriggerBuilder.newTrigger.withIdentity.startAt.withSchedule.build

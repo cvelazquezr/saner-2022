@@ -1,0 +1,61 @@
+*Website: https://www.tutorialspoint.com/apache_poi/index.htm
+**Feature_1
+Name:Create Blank Workbook
+Code:XSSFWorkbook.write
+**Feature_2
+Name:Create a Spreadsheet
+Code:XSSFWorkbook.createSheet
+**Feature_3
+Name:Create Rows on Spreadsheet
+Code:XSSFSheet.createRow
+**Feature_4
+Name:Read from a Spreadsheet
+Code:XSSFWorkbook.getSheetAt,XSSFSheet.iterator,XSSFRow.cellIterator
+**Feature_5
+Name:Create a Cell
+Code:XSSFWorkbook.createSheet,XSSFSheet.createRow,XSSFRow.createCell
+**Feature_6
+Name:Merging cells
+Code:XSSFSheet.addMergedRegion
+**Feature_7
+Name: Set Alignment
+Code:XSSFCellStyle.setAlignment,XSSFCellStyle.setVerticalAlignment
+**Feature_8
+Name: Cell Border
+Code:XSSFCellStyle.setBorderBottom,XSSFCellStyle.setBottomBorderColor,XSSFCellStyle.setBorderLeft,XSSFCellStyle.setLeftBorderColor,XSSFCellStyle.setBorderRight,XSSFCellStyle.setRightBorderColor,XSSFCellStyle.setBorderTop,XSSFCellStyle.setTopBorderColor,XSSFCell.setCellStyle
+**Feature_9
+Name: Foreground Color
+Code:XSSFCellStyle.setFillForegroundColor
+**Feature_10
+Name: Background Color
+Code:XSSFCellStyle.setFillBackgroundColor
+**Feature_11
+Name: Create Font
+Code:XSSFWorkbook.createFont
+**Feature_12
+Name: Alter Font
+Code:XSSFFont.setFontHeightInPoints,XSSFFont.setFontName,XSSFFont.setItalic,XSSFFont.setColor
+**Feature_13
+Name: Set font into style
+Code:XSSFCellStyle.setFont
+**Feature_14
+Name: Text direction
+Code:XSSFCellStyle.setRotation
+**Feature_15
+Name: Create formula
+Code:XSSFCell.setCellFormula
+**Feature_16
+Name: Create hyperlinks
+Code:CreationHelper.createHyperlink,XSSFHyperlink.setAddress,XSSFCell.setHyperlink
+**Feature_17
+Name: Set print area
+Code:XSSFWorkbook.setPrintArea
+**Feature_18
+Name: Set paper size
+Code:XSSFSheet.getPrintSetup.setPaperSize
+**Feature_19
+Name: Set display grid lines or not
+Code:XSSFSheet.setDisplayGridlines
+**Feature_20
+Name: Set print grid lines or not
+Code:XSSFSheet.setPrintGridlines

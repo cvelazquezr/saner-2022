@@ -1,0 +1,46 @@
+*Website: https://www.tutorialspoint.com/jsoup/
+**Feature_1
+Name:Parsing String
+Code:Jsoup.parse
+**Feature_2
+Name:Parsing Body
+Code:Jsoup.parseBodyFragment
+**Feature_3
+Name:Loading URL
+Code:Jsoup.connect.get
+**Feature_4
+Name:Using DOM elements - Get elements by ID
+Code:Document.getElementById
+**Feature_5
+Name:Using DOM elements - Get elements by tag
+Code:Element.getElementsByTag
+**Feature_6
+Name:Using Selector Syntax
+Code:Document.select
+**Feature_7
+Name:Extract Attributes
+Code:Element.attr
+**Feature_8
+Name:Extract Text
+Code:Element.text
+**Feature_9
+Name:Extract Outer HTML
+Code:Element.outerHtml
+**Feature_10
+Name:Extract Inner HTML
+Code:Element.html
+**Feature_11
+Name:Working with URLs
+Code:Element.absUrl
+**Feature_12
+Name:Add class from element
+Code:Element.addClass
+**Feature_13
+Name:Remove class from element
+Code:Element.removeClass
+**Feature_14
+Name:Set HTML/Text
+Code:Element.append
+**Feature_15
+Name:Sanitize HTML
+Code:Jsoup.clean

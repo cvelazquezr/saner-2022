@@ -1,0 +1,15 @@
+name,score
+1/questionBodies,0.2
+1/methodsCamelCase,0.36
+1/methods,0.36
+1/titles,0.25
+1/answerBodies,0.11
+1/apiCalls,0.33
+2/titles_answerBodies,0.21
+2/methodsCamelCase_apiCalls,0.33
+2/methods_apiCalls,0.33
+2/titles_questionBodies,0.22
+2/methods_methodsCamelCase,0.37
+2/questionBodies_answerBodies,0.07
+3/titles_questionBodies_answerBodies,0.18
+3/methods_methodsCamelCase_apiCalls,0.34

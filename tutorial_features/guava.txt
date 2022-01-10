@@ -1,0 +1,93 @@
+*Website: https://www.baeldung.com/guava-collections
+**Feature_1
+Name:Downcast a List<Parent> to a List<Child>
+Code:Lists.transform
+**Feature_2
+Name:Adding an iterable to a collection
+Code:Iterables.addAll
+**Feature_3
+Name:Check if collection contains element(s) according to a custom matching rule
+Code:Iterables.any
+**Feature_4
+Name:Check if collection contains element(s) according to a custom matching rule using search
+Code:Iterables.find
+**Feature_5
+Name:Check if collection contains element(s) according to a custom matching rule applicable to Sets
+Code:Sets.filter.isEmpty
+**Feature_6
+Name:Create immutable List directly
+Code:ImmutableList.of
+**Feature_7
+Name:Create immutable Set directly
+Code:ImmutableSet.of
+**Feature_8
+Name:Create immutable Map directly
+Code:ImmutableMap.of
+**Feature_9
+Name:Create immutable List from a standard collection
+Code:ImmutableList.copyOf
+**Feature_10
+Name:Create immutable Set from a standard collection
+Code:ImmutableSet.copyOf
+**Feature_11
+Name:Create immutable Map from a standard collection
+Code:ImmutableMap.copyOf
+*Website: https://www.baeldung.com/guava-order
+**Feature_12
+Name:Dealing with nulls in a Collection - Nulls first
+Code:Ordering.natural.nullsFirst
+**Feature_13
+Name:Dealing with nulls in a Collection - Nulls last
+Code:Ordering.natural.nullLast
+**Feature_14
+Name:Natural ordering
+Code:Ordering.natural
+**Feature_15
+Name:Reverse an ordering
+Code:Ordering.natural.reverse
+**Feature_16
+Name:Checking explicit order
+Code:Ordering.explicit
+**Feature_17
+Name:Secondary ordering
+Code:OrderingByLength.compound,Ordering.natural
+**Feature_18
+Name:Sort using toString representation
+Code:Ordering.usingToString
+**Feature_19
+Name:Find (binary search)
+Code:Ordering.usingToString.binarySearch
+**Feature_20
+Name:Find min/max without having to sort (faster)
+Code:Ordering.usingToString.min
+**Feature_21
+Name:Creating a sorted copy of the list from an ordering
+Code:OrderingByLenght.sortedCopy
+**Feature_22
+Name:Creating a sorted partial copy – the least few elements
+Code:Ordering.natural.leastOf
+**Feature_23
+Name:Ordering via intermediary Function
+Code:Ordering.natural.onResultOf,Ordering.sortedCopy
+*Website: https://www.baeldung.com/guava-functions-predicates
+**Feature_24
+Name:Filter a collection by a condition (custom Predicate)
+Code:Collections2.filter,Collections.binarySearch
+**Feature_25
+Name:Filter out nulls from a collection
+Code:Iterables.filter,Predicates.notNull
+**Feature_26
+Name:Check condition for all elements of a collection
+Code:Iterables.all
+**Feature_27
+Name:Negate a predicate
+Code:Predicates.not
+**Feature_28
+Name:Apply a simple function
+Code:Functions.toStringFunction
+**Feature_29
+Name:Compose two functions
+Code:Functions.compose
+**Feature_30
+Name:Create a Function out of a Predicate
+Code:Functions.forPredicate

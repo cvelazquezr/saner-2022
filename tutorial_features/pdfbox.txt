@@ -1,0 +1,46 @@
+*Website: https://www.tutorialspoint.com/pdfbox/pdfbox_quick_guide.htm
+**Feature_1
+Name:Creating a PDF Document
+Code:PDDocument.save
+**Feature_2
+Name:Adding Pages
+Code:PDDocument.addPage
+**Feature_3
+Name:Loading a Document
+Code:PDDocument.load
+**Feature_4
+Name:Removing Pages
+Code:PDDocument.removePage
+**Feature_5
+Name:Setting metadata information
+Code:PDDocumentInformation.setAuthor,PDDocumentInformation.setTitle,PDDocumentInformation.setCreator,PDDocumentInformation.setSubject,PDDocumentInformation.setCreationDate,PDDocumentInformation.setModificationDate,PDDocumentInformation.setKeywords
+**Feature_6
+Name:Retrieving metadata information from a PDF Document
+Code:PDDocumentInformation.getAuthor,PDDocumentInformation.getTitle,PDDocumentInformation.getSubject,PDDocumentInformation.getCreator,PDDocumentInformation.getCreationDate,PDDocumentInformation.getKeywords
+**Feature_7
+Name:Adding Text to an Existing PDF Document
+Code:PDPageContentStream.beginText,PDPageContentStream.showText,PDPageContentStream.endText
+**Feature_8
+Name:Reading Text
+Code:PDFTextStripper.getText
+**Feature_9
+Name:Inserting Image
+Code:PDImageXObject.createFromFile,PDPageContentStream.drawImage
+**Feature_10
+Name:Encrypting a PDF Document
+Code:StandardProtectionPolicy.setEncryptionKeyLength,StandardProtectionPolicy.setPermissions,PDDocument.protect
+**Feature_11
+Name:Embedding JavaScript in PDF Document
+Code:PDDocument.getDocumentCatalog.setOpenAction
+**Feature_12
+Name:Splitting a PDF Document
+Code:Splitter.split
+**Feature_13
+Name:Merging multiple PDF Documents
+Code:PDFMergerUtility.setDestinationFileName,PDFMergerUtility.addSource,PDFMergerUtility.mergeDocuments
+**Feature_14
+Name:Converting PDF To Image
+Code:PDFRenderer.renderImage
+**Feature_15
+Name:Adding Rectangles
+Code:PDPageContentStream.addRect

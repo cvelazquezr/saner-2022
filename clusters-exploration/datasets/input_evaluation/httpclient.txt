@@ -1,0 +1,37 @@
+*Website: https://www.baeldung.com/httpclient4
+**Feature_1
+Name:Create the http client
+Code:HttpClientBuilder.create.build
+**Feature_2
+Name:Send basic GET request
+Code:CloseableHttpClient.execute
+**Feature_3
+Name:Get the Status Code of the HTTP Response
+Code:CloseableHttpResponse.getStatusLine.getStatusCode
+**Feature_4
+Name:Get the Media Type of the response
+Code:ContentType.getOrDefault.getMimeType
+**Feature_5
+Name:Get the body of the response
+Code:CloseableHttpResponse.getEntity
+**Feature_6
+Name:Configure timeout on a request
+Code:RequestConfig.custom.setConnectionRequestTimeout.setConnectTimeout.setSocketTimeout.build,HttpGet.setConfig
+**Feature_7
+Name:Configure timeout on the entire client
+Code:RequestConfig.custom.setConnectionRequestTimeout.setConnectTimeout.setSocketTimeout.build,HttpClientBuilder.create.setDefaultRequestConfig
+**Feature_8
+Name:Add parameters to a request
+Code:HttpGet.setEntity
+**Feature_9
+Name:Configure how redirect are handled for an HTTP Request
+Code:HttpClientBuilder.create.disableRedirectHandling.build,CloseableHttpClient.execute,CloseableHttpResponse.getStatusLine.getStatusCode
+**Feature_10
+Name:Configure the headers for a request
+Code:HttpGet.addHeader,CloseableHttpClient.execute
+**Feature_11
+Name:Get the headers from the response
+Code:CloseableHttpResponse.getHeaders
+**Feature_12
+Name:Close/release resources
+Code:CloseableHttpResponse.getEntity,HttpEntity.getContent,CloseableHttpResponse.close
